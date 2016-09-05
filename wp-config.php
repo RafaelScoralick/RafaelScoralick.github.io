@@ -30,7 +30,7 @@ define('DB_USER', 'turbodb');
 define('DB_PASSWORD', 'gtgt88865089');
 
 /** MySQL hostname */
-define('DB_HOST', 'https://phpmyadmin.umbler.com');
+define('DB_HOST', 'mysql796.umbler.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
