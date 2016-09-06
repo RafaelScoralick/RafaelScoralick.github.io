@@ -1,0 +1,43 @@
+echo "# turbodev9" >> README.md
+git init
+git add *
+git commit -m "all"
+git remote add origin git@github.com:RafaelScoralick/turbodev9.git
+git push -u origin master
+
+
+
+git add *
+git commit -m "all"
+git push -u origin master
+
+
+// ** MySQL settings - You can get this info from your web host ** //
+/** The name of the database for WordPress */
+define('DB_NAME', 'turbodb');
+
+/** MySQL database username */
+define('DB_USER', 'turbodb');
+
+/** MySQL database password */
+define('DB_PASSWORD', 'gtgt88865089');
+
+/** MySQL hostname */
+define('DB_HOST', 'mysql796.umbler.com');
+
+/** Database Charset to use in creating database tables. */
+define('DB_CHARSET', 'utf8');
+
+/** The Database Collate type. Don't change this if in doubt. */
+define('DB_COLLATE', '');
+
+
+ 
+define('AUTH_KEY',         '`y.BoubX^g8wi^EE>+]<0~=k{9g*adj:}C=/}Ykg D.*y(zBWD!<m=b}1t[QRs>/');
+define('SECURE_AUTH_KEY',  'fQ8C^u4c@Bd7`Hn_313Uv/5*Zk+G{O.JS?e|>TwiH.-h,-{+m@ES(lZBm$#O1aY;');
+define('LOGGED_IN_KEY',    'u:NHu9t%WgiUc+gnppFf1 +aZdO~7lyylR)dlBgcI|~VtKqiG-awm}q3;) 6!7ex');
+define('NONCE_KEY',        'mW2On<&Qd(l%_}`GL3<R^l21mh)tW.3kWf@+WX$(=pR-7]DRG2Jz4J8wP>N6?RR:');
+define('AUTH_SALT',        '+p<Ug2A5b*SBIQgHjUFbXb0;O(qp#i.x)hFN+e]&CY2Jg#QgByKz-[gl;UonSc`a');
+define('SECURE_AUTH_SALT', 'c$;&l&UFa}Xcn4Y#6HrNuY876DeX&d|]4,CG6+`[VR1cH$yrs8gjcI-M{SPJYRL@');
+define('LOGGED_IN_SALT',   'XB+F._*6|,!bax:(~;4EZ>cj|ywM({W9uBd9d]d@-n|-<oWt5/MF6x++fp:@V,Wi');
+define('NONCE_SALT',       'RK&n5l=bKS|Ly|O0+i9fo&&5D>}s+rS{U=qaJr=Ef-#yaO~cUZh$wA?}DM7r3koI');
